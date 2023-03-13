@@ -356,13 +356,12 @@ button {
 }
 
 .advantadest-list {
-  display: flex;
-  gap: 24px;
+  /* flex-direction: column; */
 }
 
 .advantadest-item {
-  width: calc((100% - 72px) / 4);
   height: 112px;
+  margin-bottom: 72px;
 }
 
 .advantadest-link {
@@ -370,7 +369,7 @@ button {
   height: 100%;
   border-radius: 4px;
   background-color: #f4f4fd;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   margin-bottom: 8px;
@@ -382,18 +381,19 @@ button {
 
 .advantadest-title {
   font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
+  font-size: 36px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   color: var(--main-title-color);
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .advantadest-text {
   font-size: var(--main-text-size);
   line-height: var(--typical-lh);
   letter-spacing: 0.02em;
-  max-width: 264px;
+  max-width: 396px;
 }
 
 /* --------------Секція3 - SERVISES----------------- */

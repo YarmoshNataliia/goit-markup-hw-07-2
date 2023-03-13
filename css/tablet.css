@@ -89,4 +89,38 @@
       background-image: var(--l-gradient), url(../images/hero-tabl-2x.jpg);
     }
   }
+  /* --ADVANTAGES-- */
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .advantadest-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 72px;
+    column-gap: 24px;
+  }
+
+  .advantadest-link {
+  }
+  .advantadest-item {
+    width: calc((100% - 24px) / 2);
+    height: 112px;
+    margin-bottom: 0;
+  }
+  .advantadest-text {
+    max-width: 356px;
+  }
+  .advantadest-title {
+    text-align: left;
+  }
+
+  /* .advantadest > .container {
+    max-width: 766px;
+  } */
+  /* .advantadest-list {
+    display: wrap;
+    flex-wrap: wrap;
+    gap: 24px;
+  } */
 }

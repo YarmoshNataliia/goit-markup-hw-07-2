@@ -18,10 +18,13 @@
     gap: 40px;
   }
   /* --HERO-- */
+  .hero-title {
+    margin-bottom: 48px;
+  }
   .hero {
     padding-top: 188px;
     padding-bottom: 188px;
-    margin-bottom: 48px;
+
     background-image: var(--l-gradient), url(../images/bghero-0.jpg);
   }
   @media (min-device-pixel-ratio: 2),
@@ -32,4 +35,24 @@
       background-image: var(--l-gradient), url(../images/hero-dt-2x.jpg);
     }
   }
+  .advantadest-link {
+    display: flex;
+    gap: 24px;
+  }
+  .advantadest-item {
+    width: calc((100% - 72px) / 4);
+    height: 112px;
+  }
+  .advantadest-title {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  .advantadest-text {
+    max-width: 264px;
+  }
+  /* --ADVANTAGES-- */
+  /* .advantadest-list {
+    display: flex;
+    gap: 24px;
+  } */
 }
