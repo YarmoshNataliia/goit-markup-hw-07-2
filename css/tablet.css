@@ -68,4 +68,25 @@
   .mob-menu-btn {
     display: none;
   }
+  /* --HERO-- */
+  .hero {
+    padding-top: 112px;
+    padding-bottom: 108px;
+    background-image: var(--l-gradient), url(../images/hero-tabl.jpg);
+  }
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    width: 496px;
+    margin-bottom: 40px;
+    max-width: 496px;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: var(--l-gradient), url(../images/hero-tabl-2x.jpg);
+    }
+  }
 }

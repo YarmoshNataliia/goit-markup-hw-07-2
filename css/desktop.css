@@ -17,4 +17,19 @@
     flex-direction: row;
     gap: 40px;
   }
+  /* --HERO-- */
+  .hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
+    margin-bottom: 48px;
+    background-image: var(--l-gradient), url(../images/bghero-0.jpg);
+  }
+  @media (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: var(--l-gradient), url(../images/hero-dt-2x.jpg);
+    }
+  }
 }
