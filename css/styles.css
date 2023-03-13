@@ -363,6 +363,9 @@ button {
   height: 112px;
   margin-bottom: 72px;
 }
+.advantadest-item (:last-child) {
+  margin-bottom: 72px;
+}
 
 .advantadest-link {
   width: 100%;
