@@ -1,0 +1,55 @@
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
+  .header-navigation {
+    display: flex;
+    align-items: center;
+  }
+  .hader-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .header-link {
+    font-weight: 500;
+    font-size: var(--main-text-size);
+    line-height: var(--typical-lh);
+    letter-spacing: 0.02em;
+    color: var(--main-link-color);
+  }
+
+  .header-link:is(:hover, :focus, .current, .current-pf) {
+    color: var(--activ-link-hover-color);
+  }
+  .address {
+    margin-left: auto;
+  }
+
+  .address-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  .address-item {
+    gap: 40px;
+  }
+  .address-tel,
+  .address-mailo {
+    font-style: normal;
+    font-weight: 400;
+    font-size: var(--main-text-size);
+    line-height: var(--typical-lh);
+    letter-spacing: 0.02em;
+    color: var(--main-text-color);
+  }
+
+  .address-mailo:is(:hover, :focus, :current) {
+    color: var(--activ-link-hover-color);
+  }
+  .mob-menu-btn {
+    display: none;
+  }
+}
