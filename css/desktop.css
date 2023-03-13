@@ -6,4 +6,15 @@
     padding-top: 120px;
     padding-bottom: 120px;
   }
+  /* .address-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  } */
+  .address-list {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+  }
 }
