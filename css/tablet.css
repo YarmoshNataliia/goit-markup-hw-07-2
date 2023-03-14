@@ -137,6 +137,39 @@
   .coust-item {
     width: calc((100% - 48px) / 3);
   }
+  /* --FOOTER-- */
+  .footer > .container {
+    max-width: 582px;
+  }
+  .footer-wrap {
+    row-gap: 72px;
+    column-gap: 24px;
+  }
+
+  .footer-subscribe-section {
+    max-width: 453px;
+    margin-left: 0;
+  }
+  .footer-soc-section {
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .footer-log-section {
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .footer-logo {
+    justify-content: left;
+  }
+  .footer-title {
+    text-align: left;
+  }
+  .form-subscribe {
+    flex-wrap: nowrap;
+  }
+
   /* .team-section > .container {
   } */
   /* .advantadest > .container {

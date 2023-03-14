@@ -103,4 +103,27 @@
   .coust-item {
     width: calc((100% - 120px) / 6);
   }
+  /* --FOOTER-- */
+
+  .footer > .container {
+    max-width: 1158px;
+  }
+  .footer {
+    padding-bottom: 100px;
+    padding-top: 100px;
+  }
+  .footer-wrap {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .footer-soc-section {
+    margin-left: 120px;
+  }
+  .footer-subscribe-section {
+    margin-left: 80px;
+  }
+  .form-subscribe-wrap {
+    display: flex;
+  }
 }
