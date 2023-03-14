@@ -542,6 +542,8 @@ button {
 .footer {
   display: block;
   background-color: var(--second-bg-dark-color);
+  padding-bottom: 96px;
+  padding-top: 96px;
 }
 .footer > .container {
   max-width: 294px;

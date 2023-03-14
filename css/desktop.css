@@ -115,6 +115,7 @@
   .footer-wrap {
     display: flex;
     flex-wrap: nowrap;
+    gap: unset;
   }
   .footer-logo {
     width: 264px;
