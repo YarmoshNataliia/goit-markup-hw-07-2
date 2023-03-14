@@ -116,7 +116,9 @@
     display: flex;
     flex-wrap: nowrap;
   }
-
+  .footer-logo {
+    width: 264px;
+  }
   .footer-soc-section {
     margin-left: 120px;
   }
