@@ -58,6 +58,14 @@
     padding-bottom: 120px;
     padding-top: 120px;
   }
+  /* .services-section > .container {
+    max-width: 1200px;
+  } */
+  .services-list {
+  }
+  .services-item {
+    width: calc((100% - 48px) / 3);
+  }
   .services-title {
     font-size: 36px;
     line-height: 1.11;
@@ -72,13 +80,27 @@
   .team-section {
     padding-top: 120px;
     padding-bottom: 120px;
-    background-color: #f4f4fd;
   }
+
   .team-section > .container {
-    max-width: 1200px;
+    max-width: 1158px;
   }
   .team-list {
     display: flex;
     gap: 24px;
+  }
+
+  /* --CUSTOMERS-- */
+
+  .coust-section > .container {
+    max-width: 1158px;
+  }
+
+  .coust-list {
+    display: flex;
+    gap: 24px;
+  }
+  .coust-item {
+    width: calc((100% - 120px) / 6);
   }
 }

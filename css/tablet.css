@@ -90,10 +90,10 @@
     }
   }
   /* --ADVANTAGES-- */
-  .section {
+  /* .section {
     padding-top: 120px;
     padding-bottom: 120px;
-  }
+  } */
   .advantadest-list {
     display: flex;
     flex-wrap: wrap;
@@ -115,15 +115,27 @@
     text-align: left;
   }
   /* - TEAM--- */
+  .team-section {
+    padding-top: 96px;
+    padding-bottom: 104px;
+  }
   .team-section > .container {
     max-width: 582px;
   }
   .team-list {
-  row-gap: 64px;
-  column-gap: 24px;
+    row-gap: 64px;
+    column-gap: 24px;
+  }
 
   .team-item {
-    width: calc((100%-24px) / 2);
+  }
+  /* --CUSTOMERS-- */
+  .coust-section > .container {
+    max-width: 582px;
+  }
+
+  .coust-item {
+    width: calc((100% - 48px) / 3);
   }
   /* .team-section > .container {
   } */
