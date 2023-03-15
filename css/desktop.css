@@ -117,6 +117,10 @@
     flex-wrap: nowrap;
     gap: unset;
   }
+
+  .footer-log-section {
+    margin-right: 0;
+  }
   .footer-logo {
     width: 264px;
   }

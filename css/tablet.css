@@ -145,6 +145,9 @@
     row-gap: 72px;
     column-gap: 24px;
   }
+  .footer-korb {
+    margin: 0;
+  }
 
   .footer-subscribe-section {
     max-width: 453px;
@@ -158,7 +161,8 @@
   .footer-log-section {
     float: left;
     margin-left: 0;
-    margin-right: 0;
+    margin-right: 24px;
+    margin-bottom: 0;
   }
   .footer-logo {
     justify-content: left;
@@ -168,6 +172,9 @@
   }
   .form-subscribe {
     flex-wrap: nowrap;
+  }
+  .subscribe-input {
+    width: 264px;
   }
 
   /* .team-section > .container {

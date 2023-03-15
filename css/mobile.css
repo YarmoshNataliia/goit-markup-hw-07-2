@@ -5,4 +5,10 @@
   .mob-menu-phone {
     font-size: 36px;
   }
+  .footer-subscribe-section > .container {
+    max-width: 426px;
+  }
+  .subscribe-input {
+    width: 100%;
+  }
 }

@@ -548,20 +548,25 @@ button {
   padding-bottom: 96px;
   padding-top: 96px;
 }
-.footer > .container {
+/* .footer > .container {
   max-width: 294px;
-}
+} */
 
 .footer-wrap {
   display: flex;
   flex-wrap: wrap;
   gap: 72px;
 }
+.footer-korb {
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .footer-log-section {
   width: 264px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 72px;
 }
 
 .footer-logo > span {
@@ -642,11 +647,13 @@ button {
   display: flex;
 } */
 
+.footer-subscribe-section {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
 .form-subscribe-wrap {
   display: flex;
-}
-.footer-subscribe-section {
-  max-width: 100%;
 }
 .form-subscribe {
   display: flex;
